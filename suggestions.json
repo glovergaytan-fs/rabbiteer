@@ -1,477 +1,2377 @@
 [
-  "Triple tap to toggle active mic.",
-  "Ability to power off the device without holding the button for 60 seconds (option in settings menu).",
-  "Option to invert the scroll wheel.",
-  "Gesture or quick shortcut to change volume (e.g., holding PTT and sliding scroll wheel).",
-  "Tap the screen to wake up.",
-  "Keyboard with swipe capability.",
-  "Scroll wheel controls exact camera angle.",
-  "Ability to scroll through the entire answer with the scroll wheel.",
-  "Scroll sensitivity setting.",
-  "Adjust speed of the scroll wheel.",
-  "Option to shut down without going into the menu.",
-  "Display entire answer on screen and scroll through it.",
-  "Visual indicator that R1 is finished speaking.",
-  "Ability to play music with the display off.",
-  "Connectivity details on the Home Screen (WiFi signal strength, cellular bars).",
-  "Easier way to adjust volume (e.g., triple click PTT + scroll wheel).",
-  "Easier way to power off R1.",
-  "Petition to remove the Enter button on the keyboard and force button press for enter.",
-  "Chat history on-device.",
-  "24-hour clock option.",
-  "Buttons to launch recorder and translate from the home screen.",
-  "OLED screen.",
-  "Reduce the 60-second hold time to power off.",
-  "Make the touchscreen usable on all screens.",
-  "Custom UI for showing recipes.",
-  "Option to control screen timeout.",
-  "Share generated images to Discord.",
-  "Voice speed setting.",
-  "Clicking scroll wheel adjusts volume/brightness in settings.",
-  "Ability to scroll back in history a bit using the scroll wheel.",
-  "Shutter sound or animation when Vision takes a photo.",
-  "Minimize the Vision image and store it in the top right corner to allow bigger text.",
-  "Option for text and voice responses simultaneously.",
-  "Ability to play back voice recordings on the device.",
-  "Back and Next buttons on journal entries in Rabbit Hole.",
-  "Ability to tap on an object during Vision to pinpoint analysis.",
-  "Ability to scroll the screen with your finger.",
-  "Double tap to skip audio, scroll wheel for volume.",
-  "\"Hold\" on the main volume adjusts all volume levels.",
-  "Small buttons for all LAMs in landscape mode (like a mini Stream Deck).",
-  "Friction dialog for the delete button in Rabbit Hole.",
-  "Visual indicator when R1 hears a voice command and is thinking.",
-  "Change \"Terminal\" to \"txt\".",
-  "Make the rabbit on the screen customizable or change randomly.",
-  "Ability to connect to a different WiFi network after already connecting.",
-  "Shopping list with checkboxes.",
-  "Ability to save to notes while in terminal mode.",
-  "Markdown formatting stripped out when Rabbit reads a response.",
-  "\\u23ea\\u25b6\\ufe0f\\u23e9 buttons for Spotify.",
-  "Log spreadsheets/transcriptions to Rabbit Hole.",
-  "Ability to view notes on the R1.",
-  "Dice animation for D&D rolls.",
-  "Read back user's voice input as it's being heard.",
-  "Persistent display of responses.",
-  "Enhanced navigation through response text.",
-  "Quick access action menu for responses.",
-  "Battery indicator as a battery icon instead of a percentage.",
-  "Secret game using the scroll wheel.",
-  "Animation and haptic feedback when pressing the button 5 times to clear.",
-  "Vibrate and show animation when fully charged.",
-  "Show the rabbit napping on the wheel when fully charged.",
-  "Show the rabbit rubbing its belly when fully charged.",
-  "Electricity sparking from the wheel when fully charged.",
-  "Adjust volume quickly by holding side button and using scroll wheel.",
-  "Mobile app for Rabbit Hole.",
-  "Desktop app for Rabbit.",
-  "Offline voice recording with subsequent upload to journal.",
-  "Adjust volume for music playback and voice responses on the fly.",
-  "Network bar to show connection strength.",
-  "Speed up or slow down scroll wheel response speed.",
-  "Close menu by shaking the device.",
-  "Furigana option for Japanese text.",
-  "One-way audio option for translations.",
-  "Allow translation while recording audio sessions.",
-  "Audio replay for search and translation.",
-  "Full text of response displayed on screen.",
-  "Collection feature like Perplexity.",
-  "Data usage information in settings or Rabbit Hole.",
-  "Customizable home screen with wallpaper or color changes.",
-  "Touchscreen controls for music menu.",
-  "Audio, visual, and haptic cues for listening, processing, etc.",
-  "Control all settings via voice commands.",
-  "Improved onboarding experience.",
-  "Teach Rabbit habits via voice commands.",
-  "Verbose and brevity modes for responses.",
-  "Rabbithole logs all inquiries, not just notes and photos.",
-  "Ability to name Rabbit.",
-  "Hierarchy and organization in Rabbit Hole.",
-  "Markdown support for notes.",
-  "Folders for notes.",
-  "Command shortcuts for rapid button presses.",
-  "Visual indicator that R1 heard the voice command and is thinking.",
-  "Faster scrolling speed for the wheel.",
-  "Case design that allows charging while docked.",
-  "Images in search results.",
-  "Ability to provide custom instructions and remember personal info.",
-  "Ability to journal offline and sync to a paired PC.",
-  "Option to connect to a different WiFi network after connecting to one.",
-  "Option to display the full text of the response on the screen.",
-  "Option to save a response to the rabbithole or as an email.",
-  "Transcription of text (similar to the voice recorder).",
-  "Swipe typing with AI prediction in terminal mode.",
-  "Faster scroll speed and clickable scroll wheel for volume/brightness adjustment.",
-  "Tidal support.",
-  "Prompt to save information to notes.",
-  "Prompt to email information.",
-  "Ability to retrieve and summarize meetings from a specific date.",
-  "Option to show the full text of the response on screen.",
-  "Option to save to notes from terminal mode.",
-  "QR code sticker on the case doesn't block the screen.",
-  "Option to connect to a different wifi network after already connecting to one.",
-  "Camera autofocus.",
-  "Budget and transaction tracking (receipt scanning).",
-  "Webhook for new notes in Rabbit Hole.",
-  "GPS functionality.",
-  "Ability to control voice volume with the scroll wheel during responses.",
-  "Option to have the rabbit turn into a dice for D&D rolls.",
-  "Ability to read what the user is saying as it's being heard.",
-  "Add 1-2 days to the estimated delivery date.",
-  "Ability to provide feedback via R1.",
-  "Persistent display of responses and actions.",
-  "Data usage information in settings or Rabbit Hole.",
-  "Secret game using the scroll wheel.",
-  "Animation and haptic feedback when pressing the button 5 times to clear.",
-  "Vibrate and show animation when fully charged.",
-  "Adjust volume quickly by holding the side button and using the scroll wheel.",
-  "Option to make calls with a SIM card inserted.",
-  "Drag and drop files into Rabbit Hole via USB-C.",
-  "Images displayed with search results.",
-  "Comical comments and animations to indicate connection or server delay.",
-  "Themes with different animated rabbits, clock fonts, and UI colors.",
-  "Visual indicator of response length.",
-  "Ability to change brightness and volume via voice.",
-  "Option to lower screen brightness to ultra low.",
-  "Toggle to turn off the floating rabbit animation.",
-  "Save password letters typed during WiFi setup.",
-  "Scroll wheel sensitivity adjustment.",
-  "Ability to connect to WPA2 Enterprise WiFi.",
-  "Adjust volume using scroll wheel while Rabbit is speaking.",
-  "UI to indicate what Rabbit is doing (processing, failed, etc.).",
-  "Option to join hidden WiFi networks and networks that don't require passwords.",
-  "Option to play podcasts.",
-  "Control settings with voice commands (e.g., \"Volume level 50%\").",
-  "Option to display battery level on all screens.",
-  "\"Hey Rabbit\" voice activation mode.",
-  "Cellular vs WiFi indicator on the screen.",
-  "Visual indicator that Rabbit is listening in terminal mode.",
-  "Ability to switch to and from terminal mode during a response.",
-  "All replies displayed in terminal mode.",
-  "Option for voiced terminal mode.",
-  "Complete, non-segmented response displayed at once.",
-  "Smaller text size for long responses in non-segmented mode.",
-  "Prevent keyboard from automatically popping up in terminal mode.",
-  "Clicking on the r1OS version in About checks for OTA updates.",
-  "Customize the rabbit color or add themes.",
-  "Ability to query the Rabbit Hole from R1.",
-  "Ability to switch languages in a single command.",
-  "Option to disable connections in the Rabbit Hole.",
-  "Search functionality in the Rabbit Hole website.",
-  "24-hour time and dd/mm/yyyy date format.",
-  "Flip upside down for easier use in both hands.",
-  "Set up an email account to verbally draft and send emails.",
-  "Playlists on Spotify.",
-  "Ability to view and manage journal entries in a Rabbit Hole mobile app.",
-  "Real-time display of R1's battery percentage and GPS location in Rabbit Hole.",
-  "Camera capture orientation options (landscape, upside down, etc.).",
-  "Persistent conversation mode with adjustable speech for younger audiences.",
-  "MIDI protocol support for controlling synths.",
-  "Option to display the full text of the response on the screen, instead of two lines at a time.",
-  "Option to show full text of response on screen, minimizing the time and rabbit animation.",
-  "Guide about which service provider plans work in different regions.",
-  "Low data mode for WiFi/data.",
-  "Italian language support.",
-  "Ability to use a Bluetooth keyboard.",
-  "Ability to adjust voice volume for music playback and voice responses on the fly.",
-  "Network bar to see connection strength.",
-  "Speed up or slow down response speed of the scroll wheel.",
-  "Close menu by shaking the device again.",
-  "Option to show full text of the response on screen.",
-  "Add a reboot option in the power settings.",
-  "Make calls with a SIM card inserted.",
-  "Use the phone number for SMS.",
-  "Visual indicator when R1 is working on a response.",
-  "Drag and drop files into Rabbit Hole via USB-C.",
-  "Italian language support.",
-  "Visual indicator of response length.",
-  "Option to lower screen brightness to ultra low.",
-  "Toggle to turn off the floating rabbit animation.",
-  "Secret game using the scroll wheel.",
-  "Animation and haptic feedback when pressing the button 5 times to clear.",
-  "Vibrate and show animation when fully charged.",
-  "Adjust volume quickly by holding side button and using scroll wheel.",
-  "\"Hey Rabbit\" voice activation mode.",
-  "Cellular vs WiFi indicator on the screen.",
-  "Option to join hidden WiFi networks and networks that don't require passwords.",
-  "Control settings with voice commands (e.g., \"Volume level 50%\").",
-  "Option to display battery level on all screens.",
-  "\"Hey Rabbit\" voice activation mode.",
-  "Drag and drop files into Rabbit Hole via USB-C.",
-  "Italian language support.",
-  "Comical comments and animations to indicate connection or server delay.",
-  "Themes with different animated rabbits, clock fonts, and UI colors.",
-  "Visual indicator of response length.",
-  "Option to lower screen brightness to ultra low.",
-  "Toggle to turn off the floating rabbit animation.",
-  "Secret game using the scroll wheel.",
-  "Animation and haptic feedback when pressing the button 5 times to clear.",
-  "Vibrate and show animation when fully charged.",
-  "Adjust volume quickly by holding side button and using scroll wheel.",
-  "\"Hey Rabbit\" voice activation mode.",
-  "Cellular vs WiFi indicator on the screen.",
-  "Visual indicator that Rabbit is listening in terminal mode.",
-  "Ability to switch to and from terminal mode during a response.",
-  "All replies displayed in terminal mode.",
-  "Option for voiced terminal mode.",
-  "Complete, non-segmented response displayed at once.",
-  "Smaller text size for long responses in non-segmented mode.",
-  "Prevent keyboard from automatically popping up in terminal mode.",
-  "Clicking on the r1OS version in About checks for OTA updates.",
-  "Customize the rabbit color or add themes.",
-  "Ability to query the Rabbit Hole from R1.",
-  "Ability to switch languages in a single command.",
-  "Option to disable connections in the Rabbit Hole.",
-  "Search functionality in the Rabbit Hole website.",
-  "24-hour time and dd/mm/yyyy date format.",
-  "Flip upside down for easier use in both hands.",
-  "Set up an email account to verbally draft and send emails.",
-  "Playlists on Spotify.",
-  "Real-time display of R1's battery percentage and GPS location in Rabbit Hole.",
-  "Camera capture orientation options (landscape, upside down, etc.).",
-  "Persistent conversation mode with adjustable speech for younger audiences.",
-  "MIDI protocol support for controlling synths.",
-  "Guide about which service provider plans work in different regions.",
-  "Low data mode for WiFi/data.",
-  "Italian language support.",
-  "Ability to use a Bluetooth keyboard.",
-  "Network bar to see connection strength.",
-  "Speed up or slow down response speed of the scroll wheel.",
-  "Close menu by shaking the device again.",
-  "Furigana option for Japanese text.",
-  "One-way audio option for translations.",
-  "Allow translation while recording audio sessions.",
-  "Audio replay for search and translation.",
-  "Option to make calls with a SIM card inserted.",
-  "Use the phone number for SMS.",
-  "Drag and drop files into Rabbit Hole via USB-C.",
-  "Visual indicator when R1 is working on a response.",
-  "Italian language support.",
-  "Images displayed with search results.",
-  "Option to display battery level on all screens.",
-  "Cellular vs WiFi indicator on the screen.",
-  "Option to join hidden WiFi networks and networks that don't require passwords.",
-  "Option to play podcasts.",
-  "Control settings with voice commands (e.g., \"Volume level 50%\").",
-  "Option to display battery level on all screens.",
-  "\"Hey Rabbit\" voice activation mode.",
-  "Drag and drop files into Rabbit Hole via USB-C.",
-  "Italian language support.",
-  "Comical comments and animations to indicate connection or server delay.",
-  "Themes with different animated rabbits, clock fonts, and UI colors.",
-  "Visual indicator of response length.",
-  "Option to lower screen brightness to ultra low.",
-  "Toggle to turn off the floating rabbit animation.",
-  "Secret game using the scroll wheel.",
-  "Animation and haptic feedback when pressing the button 5 times to clear.",
-  "Vibrate and show animation when fully charged.",
-  "Adjust volume quickly by holding side button and using scroll wheel.",
-  "\"Hey Rabbit\" voice activation mode.",
-  "Cellular vs WiFi indicator on the screen.",
-  "Option to lower screen brightness to ultra low.",
-  "Toggle to turn off the floating rabbit animation.",
-  "Save password letters typed during WiFi setup.",
-  "Scroll wheel sensitivity adjustment.",
-  "Ability to connect to WPA2 Enterprise WiFi.",
-  "Adjust volume using scroll wheel while Rabbit is speaking.",
-  "UI to indicate what Rabbit is doing (processing, failed, etc.).",
-  "Option to join hidden WiFi networks and networks that don't require passwords.",
-  "Control settings with voice commands (e.g., \"Volume level 50%\").",
-  "Option to display battery level on all screens.",
-  "\"Hey Rabbit\" voice activation mode.",
-  "Visual indicator when R1 is working on a response.",
-  "Drag and drop files into Rabbit Hole via USB-C.",
-  "Italian language support.",
-  "Images displayed with search results.",
-  "Comical comments and animations to indicate connection or server delay.",
-  "Themes with different animated rabbits, clock fonts, and UI colors.",
-  "Visual indicator of response length.",
-  "Customize the rabbit color or add themes.",
-  "Option to disable connections in the Rabbit Hole.",
-  "Search functionality in the Rabbit Hole website.",
-  "24-hour time and dd/mm/yyyy date format.",
-  "Flip upside down for easier use in both hands.",
-  "Set up an email account to verbally draft and send emails.",
-  "Playlists on Spotify.",
-  "Real-time display of R1's battery percentage and GPS location in Rabbit Hole.",
-  "Camera capture orientation options (landscape, upside down, etc.).",
-  "Guide about which service provider plans work in different regions.",
-  "Low data mode for WiFi/data.",
-  "Italian language support.",
-  "Ability to use a Bluetooth keyboard.",
-  "Network bar to see connection strength.",
-  "Speed up or slow down response speed of the scroll wheel.",
-  "Close menu by shaking the device again.",
-  "Furigana option for Japanese text.",
-  "One-way audio option for translations.",
-  "Allow translation while recording audio sessions.",
-  "Audio replay for search and translation.",
-  "Option to make calls with a SIM card inserted.",
-  "Use the phone number for SMS.",
-  "Option to display the full text of the response on the screen.",
-  "Swipe typing with AI prediction in terminal mode.",
-  "Faster scroll speed and clickable scroll wheel for volume/brightness adjustment.",
-  "Tidal support.",
-  "Ability to retrieve and summarize meetings from a specific date.",
-  "Dice animation for D&D rolls.",
-  "Ability to read what the user is saying as it's being heard.",
-  "Add 1-2 days to the estimated delivery date.",
-  "Ability to provide feedback via R1.",
-  "Persistent display of responses and actions.",
-  "Data usage information in settings or Rabbit Hole.",
-  "Secret game using the scroll wheel.",
-  "Animation and haptic feedback when pressing the button 5 times to clear.",
-  "Vibrate and show animation when fully charged.",
-  "Adjust volume quickly by holding the side button and using the scroll wheel.",
-  "Option to make calls with a SIM card inserted.",
-  "Drag and drop files into Rabbit Hole via USB-C.",
-  "Visual indicator when R1 is working on a response.",
-  "Drag and drop files into Rabbit Hole via USB-C.",
-  "Italian language support.",
-  "Images displayed with search results.",
-  "Option to display battery level on all screens.",
-  "Cellular vs WiFi indicator on the screen.",
-  "Option to join hidden WiFi networks and networks that don't require passwords.",
-  "Option to play podcasts.",
-  "Control settings with voice commands (e.g., \"Volume level 50%\").",
-  "Option to display battery level on all screens.",
-  "\"Hey Rabbit\" voice activation mode.",
-  "Themes with different animated rabbits, clock fonts, and UI colors.",
-  "Visual indicator of response length.",
-  "Customize the rabbit color or add themes.",
-  "Option to disable connections in the Rabbit Hole.",
-  "Search functionality in the Rabbit Hole website.",
-  "24-hour time and dd/mm/yyyy date format.",
-  "Flip upside down for easier use in both hands.",
-  "Set up an email account to verbally draft and send emails.",
-  "Playlists on Spotify.",
-  "Real-time display of R1's battery percentage and GPS location in Rabbit Hole.",
-  "Camera capture orientation options (landscape, upside down, etc.).",
-  "Persistent conversation mode with adjustable speech for younger audiences.",
-  "Guide about which service provider plans work in different regions.",
-  "Low data mode for WiFi/data.",
-  "Italian language support.",
-  "Ability to use a Bluetooth keyboard.",
-  "Network bar to see connection strength.",
-  "Speed up or slow down response speed of the scroll wheel.",
-  "Close menu by shaking the device again.",
-  "Furigana option for Japanese text.",
-  "One-way audio option for translations.",
-  "Allow translation while recording audio sessions.",
-  "Audio replay for search and translation.",
-  "Option to make calls with a SIM card inserted.",
-  "Use the phone number for SMS.",
-  "Option to display the full text of the response on the screen.",
-  "Swipe typing with AI prediction in terminal mode.",
-  "Faster scroll speed and clickable scroll wheel for volume/brightness adjustment.",
-  "Tidal support.",
-  "Ability to retrieve and summarize meetings from a specific date.",
-  "Dice animation for D&D rolls.",
-  "Ability to read what the user is saying as it's being heard.",
-  "Add 1-2 days to the estimated delivery date.",
-  "Ability to provide feedback via R1.",
-  "Persistent display of responses and actions.",
-  "Data usage information in settings or Rabbit Hole.",
-  "Secret game using the scroll wheel.",
-  "Animation and haptic feedback when pressing the button 5 times to clear.",
-  "Vibrate and show animation when fully charged.",
-  "Adjust volume quickly by holding the side button and using the scroll wheel.",
-  "Option to make calls with a SIM card inserted.",
-  "Drag and drop files into Rabbit Hole via USB-C.",
-  "Italian language support.",
-  "Comical comments and animations to indicate connection or server delay.",
-  "Themes with different animated rabbits, clock fonts, and UI colors.",
-  "Visual indicator of response length.",
-  "Option to lower screen brightness to ultra low.",
-  "Toggle to turn off the floating rabbit animation.",
-  "Secret game using the scroll wheel.",
-  "Animation and haptic feedback when pressing the button 5 times to clear.",
-  "Vibrate and show animation when fully charged.",
-  "Adjust volume quickly by holding side button and using scroll wheel.",
-  "\"Hey Rabbit\" voice activation mode.",
-  "Cellular vs WiFi indicator on the screen.",
-  "Scroll wheel controls exact camera angle.",
-  "Ability to scroll through the entire answer with the scroll wheel.",
-  "Scroll sensitivity setting.",
-  "Adjust speed of the scroll wheel.",
-  "Option to shut down without going into the menu.",
-  "Display entire answer on screen and scroll through it.",
-  "Visual indicator that R1 is finished speaking.",
-  "Ability to play music with the display off.",
-  "Connectivity details on the Home Screen (WiFi signal strength, cellular bars).",
-  "Easier way to adjust volume (e.g., triple click PTT + scroll wheel).",
-  "Easier way to power off R1.",
-  "Petition to remove the Enter button on the keyboard and force button press for enter.",
-  "Chat history on-device.",
-  "24-hour clock option.",
-  "Buttons to launch recorder and translate from the home screen.",
-  "OLED screen.",
-  "Reduce the 60-second hold time to power off.",
-  "Make the touchscreen usable on all screens.",
-  "Custom UI for showing recipes.",
-  "Option to control screen timeout.",
-  "Share generated images to Discord.",
-  "Voice speed setting.",
-  "Clicking scroll wheel adjusts volume/brightness in settings.",
-  "Ability to scroll back in history a bit using the scroll wheel.",
-  "Shutter sound or animation when Vision takes a photo.",
-  "Minimize the Vision image and store it in the top right corner to allow bigger text.",
-  "Option for text and voice responses simultaneously.",
-  "Ability to play back voice recordings on the device.",
-  "Back and Next buttons on journal entries in Rabbit Hole.",
-  "Ability to tap on an object during Vision to pinpoint analysis.",
-  "Ability to scroll the screen with your finger.",
-  "Double tap to skip audio, scroll wheel for volume.",
-  "Group prompts by title/category.",
-  "Context specific chat logs (business ideas, mindfulness, shopping).",
-  "Display images with results.",
-  "Option to have \"short\" or \"detailed\" responses by default.",
-  "Support for Perplexity.",
-  "Log all interactions in Rabbit Hole and categorize them.",
-  "Access device settings in Rabbit Hole.",
-  "Start new chats with specific titles and context.",
-  "Basic first aid advice.",
-  "Multi-button configuration to reset the device.",
-  "Suicide prevention assistance.",
-  "Song recognition.",
-  "Send messages and make calls.",
-  "More Spotify functionality (e.g., follow an artist).",
-  "Image pull-up from the internet.",
-  "Send images to journal.",
-  "Visualize responses with images like a PowerPoint slide.",
-  "Customize/add to the system prompt.",
-  "Library of searches and answers (with citations) in Rabbit Hole.",
-  "Sync with Perplexity threads.",
-  "Unlock USB-C to use a higher-quality camera.",
-  "Transcribe handwriting to a document/spreadsheet.",
-  "Ability to make calls or send messages (WhatsApp, LAM integration).",
-  "Customizable/add-on system prompt.",
-  "Ability to cause focus in vision mode.",
-  "Teachable mode functionality with Mac apps.",
-  "Wombo Dream integration.",
-  "Specific UI for displaying recipes.",
-  "Use Vision photo as the basis for Midjourney generation.",
-  "Ability to set reminders and calendar dates.",
-  "Vision can recognize chat conversations and set reminders.",
-  "Danish language support.",
-  "Voice recording in other languages.",
-  "\"Blind mode\" where R1 constantly describes what's in front of it.",
-  "Support for non-US services (JustEat, Glovo, Deliveroo).",
-  "Streaming services support (YouTube, Twitch, Netflix).",
-  "Configurable button functions (push-to-talk vs. push-and-hold).",
-  "Ability to pull up photos when describing something.",
-  "Email recipes, directions, and lists.",
-  "Long-term memory for personal details and interests.",
-  "Full voice control for music playback.",
-  "Switch time zones and units (Fahrenheit/Celsius).",
-  "Control settings with voice commands.",
-  "Friction dialog for the delete button in Rabbit Hole.",
-  "Ability to create your own verified knowledge sources (\"brains\").",
-  "Home automation integration (e.g., Sonos control).",
-  "Allow Threads on Discord to organize feedback.",
-  "Command shortcuts for rapid button presses.",
-  "Point to other LLMs, including local LLMs.",
-  "Enable SSH.",
-  "Groq model integration.",
-  "Query images of a place and see directions/maps."
+  {
+    "text": "Triple tap to toggle active mic.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to power off the device without holding the button for 60 seconds (option in settings menu).",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to invert the scroll wheel.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Gesture or quick shortcut to change volume (e.g., holding PTT and sliding scroll wheel).",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Tap the screen to wake up.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Keyboard with swipe capability.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Scroll wheel controls exact camera angle.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to scroll through the entire answer with the scroll wheel.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Scroll sensitivity setting.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Adjust speed of the scroll wheel.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to shut down without going into the menu.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Display entire answer on screen and scroll through it.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Visual indicator that R1 is finished speaking.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to play music with the display off.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Connectivity details on the Home Screen (WiFi signal strength, cellular bars).",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Easier way to adjust volume (e.g., triple click PTT + scroll wheel).",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Easier way to power off R1.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Petition to remove the Enter button on the keyboard and force button press for enter.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Chat history on-device.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "24-hour clock option.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Buttons to launch recorder and translate from the home screen.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "OLED screen.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Reduce the 60-second hold time to power off.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Make the touchscreen usable on all screens.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Custom UI for showing recipes.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to control screen timeout.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Share generated images to Discord.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Voice speed setting.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Clicking scroll wheel adjusts volume/brightness in settings.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to scroll back in history a bit using the scroll wheel.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Shutter sound or animation when Vision takes a photo.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Minimize the Vision image and store it in the top right corner to allow bigger text.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option for text and voice responses simultaneously.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to play back voice recordings on the device.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Back and Next buttons on journal entries in Rabbit Hole.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to tap on an object during Vision to pinpoint analysis.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to scroll the screen with your finger.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Double tap to skip audio, scroll wheel for volume.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "\"Hold\" on the main volume adjusts all volume levels.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Small buttons for all LAMs in landscape mode (like a mini Stream Deck).",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Friction dialog for the delete button in Rabbit Hole.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Visual indicator when R1 hears a voice command and is thinking.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Change \"Terminal\" to \"txt\".",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Make the rabbit on the screen customizable or change randomly.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to connect to a different WiFi network after already connecting.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Shopping list with checkboxes.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to save to notes while in terminal mode.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Markdown formatting stripped out when Rabbit reads a response.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "\\u23ea\\u25b6\\ufe0f\\u23e9 buttons for Spotify.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Log spreadsheets/transcriptions to Rabbit Hole.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to view notes on the R1.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Dice animation for D&D rolls.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Read back user's voice input as it's being heard.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Persistent display of responses.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Enhanced navigation through response text.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Quick access action menu for responses.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Battery indicator as a battery icon instead of a percentage.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Secret game using the scroll wheel.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Animation and haptic feedback when pressing the button 5 times to clear.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Vibrate and show animation when fully charged.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Show the rabbit napping on the wheel when fully charged.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Show the rabbit rubbing its belly when fully charged.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Electricity sparking from the wheel when fully charged.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Adjust volume quickly by holding side button and using scroll wheel.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Mobile app for Rabbit Hole.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Desktop app for Rabbit.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Offline voice recording with subsequent upload to journal.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Adjust volume for music playback and voice responses on the fly.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Network bar to show connection strength.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Speed up or slow down scroll wheel response speed.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Close menu by shaking the device.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Furigana option for Japanese text.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "One-way audio option for translations.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Allow translation while recording audio sessions.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Audio replay for search and translation.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Full text of response displayed on screen.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Collection feature like Perplexity.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Data usage information in settings or Rabbit Hole.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Customizable home screen with wallpaper or color changes.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Touchscreen controls for music menu.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Audio, visual, and haptic cues for listening, processing, etc.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Control all settings via voice commands.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Improved onboarding experience.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Teach Rabbit habits via voice commands.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Verbose and brevity modes for responses.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Rabbithole logs all inquiries, not just notes and photos.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to name Rabbit.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Hierarchy and organization in Rabbit Hole.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Markdown support for notes.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Folders for notes.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Command shortcuts for rapid button presses.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Visual indicator that R1 heard the voice command and is thinking.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Faster scrolling speed for the wheel.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Case design that allows charging while docked.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Images in search results.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to provide custom instructions and remember personal info.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to journal offline and sync to a paired PC.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to connect to a different WiFi network after connecting to one.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to display the full text of the response on the screen.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to save a response to the rabbithole or as an email.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Transcription of text (similar to the voice recorder).",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Swipe typing with AI prediction in terminal mode.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Faster scroll speed and clickable scroll wheel for volume/brightness adjustment.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Tidal support.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Prompt to save information to notes.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Prompt to email information.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to retrieve and summarize meetings from a specific date.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to show the full text of the response on screen.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to save to notes from terminal mode.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "QR code sticker on the case doesn't block the screen.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to connect to a different wifi network after already connecting to one.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Camera autofocus.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Budget and transaction tracking (receipt scanning).",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Webhook for new notes in Rabbit Hole.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "GPS functionality.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to control voice volume with the scroll wheel during responses.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to have the rabbit turn into a dice for D&D rolls.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to read what the user is saying as it's being heard.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Add 1-2 days to the estimated delivery date.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to provide feedback via R1.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Persistent display of responses and actions.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Data usage information in settings or Rabbit Hole.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Secret game using the scroll wheel.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Animation and haptic feedback when pressing the button 5 times to clear.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Vibrate and show animation when fully charged.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Adjust volume quickly by holding the side button and using the scroll wheel.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to make calls with a SIM card inserted.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Drag and drop files into Rabbit Hole via USB-C.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Images displayed with search results.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Comical comments and animations to indicate connection or server delay.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Themes with different animated rabbits, clock fonts, and UI colors.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Visual indicator of response length.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to change brightness and volume via voice.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to lower screen brightness to ultra low.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Toggle to turn off the floating rabbit animation.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Save password letters typed during WiFi setup.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Scroll wheel sensitivity adjustment.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to connect to WPA2 Enterprise WiFi.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Adjust volume using scroll wheel while Rabbit is speaking.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "UI to indicate what Rabbit is doing (processing, failed, etc.).",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to join hidden WiFi networks and networks that don't require passwords.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to play podcasts.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Control settings with voice commands (e.g., \"Volume level 50%\").",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to display battery level on all screens.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "\"Hey Rabbit\" voice activation mode.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Cellular vs WiFi indicator on the screen.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Visual indicator that Rabbit is listening in terminal mode.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to switch to and from terminal mode during a response.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "All replies displayed in terminal mode.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option for voiced terminal mode.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Complete, non-segmented response displayed at once.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Smaller text size for long responses in non-segmented mode.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Prevent keyboard from automatically popping up in terminal mode.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Clicking on the r1OS version in About checks for OTA updates.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Customize the rabbit color or add themes.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to query the Rabbit Hole from R1.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to switch languages in a single command.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to disable connections in the Rabbit Hole.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Search functionality in the Rabbit Hole website.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "24-hour time and dd/mm/yyyy date format.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Flip upside down for easier use in both hands.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Set up an email account to verbally draft and send emails.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Playlists on Spotify.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to view and manage journal entries in a Rabbit Hole mobile app.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Real-time display of R1's battery percentage and GPS location in Rabbit Hole.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Camera capture orientation options (landscape, upside down, etc.).",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Persistent conversation mode with adjustable speech for younger audiences.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "MIDI protocol support for controlling synths.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to display the full text of the response on the screen, instead of two lines at a time.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to show full text of response on screen, minimizing the time and rabbit animation.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Guide about which service provider plans work in different regions.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Low data mode for WiFi/data.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Italian language support.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to use a Bluetooth keyboard.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to adjust voice volume for music playback and voice responses on the fly.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Network bar to see connection strength.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Speed up or slow down response speed of the scroll wheel.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Close menu by shaking the device again.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to show full text of the response on screen.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Add a reboot option in the power settings.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Make calls with a SIM card inserted.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Use the phone number for SMS.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Visual indicator when R1 is working on a response.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Drag and drop files into Rabbit Hole via USB-C.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Italian language support.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Visual indicator of response length.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to lower screen brightness to ultra low.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Toggle to turn off the floating rabbit animation.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Secret game using the scroll wheel.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Animation and haptic feedback when pressing the button 5 times to clear.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Vibrate and show animation when fully charged.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Adjust volume quickly by holding side button and using scroll wheel.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "\"Hey Rabbit\" voice activation mode.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Cellular vs WiFi indicator on the screen.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to join hidden WiFi networks and networks that don't require passwords.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Control settings with voice commands (e.g., \"Volume level 50%\").",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to display battery level on all screens.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "\"Hey Rabbit\" voice activation mode.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Drag and drop files into Rabbit Hole via USB-C.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Italian language support.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Comical comments and animations to indicate connection or server delay.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Themes with different animated rabbits, clock fonts, and UI colors.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Visual indicator of response length.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to lower screen brightness to ultra low.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Toggle to turn off the floating rabbit animation.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Secret game using the scroll wheel.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Animation and haptic feedback when pressing the button 5 times to clear.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Vibrate and show animation when fully charged.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Adjust volume quickly by holding side button and using scroll wheel.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "\"Hey Rabbit\" voice activation mode.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Cellular vs WiFi indicator on the screen.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Visual indicator that Rabbit is listening in terminal mode.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to switch to and from terminal mode during a response.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "All replies displayed in terminal mode.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option for voiced terminal mode.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Complete, non-segmented response displayed at once.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Smaller text size for long responses in non-segmented mode.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Prevent keyboard from automatically popping up in terminal mode.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Clicking on the r1OS version in About checks for OTA updates.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Customize the rabbit color or add themes.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to query the Rabbit Hole from R1.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to switch languages in a single command.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to disable connections in the Rabbit Hole.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Search functionality in the Rabbit Hole website.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "24-hour time and dd/mm/yyyy date format.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Flip upside down for easier use in both hands.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Set up an email account to verbally draft and send emails.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Playlists on Spotify.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Real-time display of R1's battery percentage and GPS location in Rabbit Hole.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Camera capture orientation options (landscape, upside down, etc.).",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Persistent conversation mode with adjustable speech for younger audiences.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "MIDI protocol support for controlling synths.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Guide about which service provider plans work in different regions.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Low data mode for WiFi/data.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Italian language support.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to use a Bluetooth keyboard.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Network bar to see connection strength.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Speed up or slow down response speed of the scroll wheel.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Close menu by shaking the device again.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Furigana option for Japanese text.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "One-way audio option for translations.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Allow translation while recording audio sessions.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Audio replay for search and translation.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to make calls with a SIM card inserted.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Use the phone number for SMS.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Drag and drop files into Rabbit Hole via USB-C.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Visual indicator when R1 is working on a response.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Italian language support.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Images displayed with search results.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to display battery level on all screens.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Cellular vs WiFi indicator on the screen.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to join hidden WiFi networks and networks that don't require passwords.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to play podcasts.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Control settings with voice commands (e.g., \"Volume level 50%\").",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to display battery level on all screens.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "\"Hey Rabbit\" voice activation mode.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Drag and drop files into Rabbit Hole via USB-C.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Italian language support.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Comical comments and animations to indicate connection or server delay.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Themes with different animated rabbits, clock fonts, and UI colors.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Visual indicator of response length.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to lower screen brightness to ultra low.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Toggle to turn off the floating rabbit animation.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Secret game using the scroll wheel.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Animation and haptic feedback when pressing the button 5 times to clear.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Vibrate and show animation when fully charged.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Adjust volume quickly by holding side button and using scroll wheel.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "\"Hey Rabbit\" voice activation mode.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Cellular vs WiFi indicator on the screen.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to lower screen brightness to ultra low.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Toggle to turn off the floating rabbit animation.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Save password letters typed during WiFi setup.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Scroll wheel sensitivity adjustment.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to connect to WPA2 Enterprise WiFi.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Adjust volume using scroll wheel while Rabbit is speaking.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "UI to indicate what Rabbit is doing (processing, failed, etc.).",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to join hidden WiFi networks and networks that don't require passwords.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Control settings with voice commands (e.g., \"Volume level 50%\").",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to display battery level on all screens.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "\"Hey Rabbit\" voice activation mode.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Visual indicator when R1 is working on a response.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Drag and drop files into Rabbit Hole via USB-C.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Italian language support.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Images displayed with search results.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Comical comments and animations to indicate connection or server delay.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Themes with different animated rabbits, clock fonts, and UI colors.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Visual indicator of response length.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Customize the rabbit color or add themes.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to disable connections in the Rabbit Hole.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Search functionality in the Rabbit Hole website.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "24-hour time and dd/mm/yyyy date format.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Flip upside down for easier use in both hands.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Set up an email account to verbally draft and send emails.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Playlists on Spotify.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Real-time display of R1's battery percentage and GPS location in Rabbit Hole.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Camera capture orientation options (landscape, upside down, etc.).",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Guide about which service provider plans work in different regions.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Low data mode for WiFi/data.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Italian language support.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to use a Bluetooth keyboard.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Network bar to see connection strength.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Speed up or slow down response speed of the scroll wheel.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Close menu by shaking the device again.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Furigana option for Japanese text.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "One-way audio option for translations.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Allow translation while recording audio sessions.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Audio replay for search and translation.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to make calls with a SIM card inserted.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Use the phone number for SMS.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to display the full text of the response on the screen.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Swipe typing with AI prediction in terminal mode.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Faster scroll speed and clickable scroll wheel for volume/brightness adjustment.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Tidal support.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to retrieve and summarize meetings from a specific date.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Dice animation for D&D rolls.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to read what the user is saying as it's being heard.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Add 1-2 days to the estimated delivery date.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to provide feedback via R1.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Persistent display of responses and actions.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Data usage information in settings or Rabbit Hole.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Secret game using the scroll wheel.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Animation and haptic feedback when pressing the button 5 times to clear.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Vibrate and show animation when fully charged.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Adjust volume quickly by holding the side button and using the scroll wheel.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to make calls with a SIM card inserted.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Drag and drop files into Rabbit Hole via USB-C.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Visual indicator when R1 is working on a response.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Drag and drop files into Rabbit Hole via USB-C.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Italian language support.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Images displayed with search results.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to display battery level on all screens.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Cellular vs WiFi indicator on the screen.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to join hidden WiFi networks and networks that don't require passwords.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to play podcasts.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Control settings with voice commands (e.g., \"Volume level 50%\").",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to display battery level on all screens.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "\"Hey Rabbit\" voice activation mode.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Themes with different animated rabbits, clock fonts, and UI colors.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Visual indicator of response length.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Customize the rabbit color or add themes.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to disable connections in the Rabbit Hole.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Search functionality in the Rabbit Hole website.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "24-hour time and dd/mm/yyyy date format.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Flip upside down for easier use in both hands.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Set up an email account to verbally draft and send emails.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Playlists on Spotify.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Real-time display of R1's battery percentage and GPS location in Rabbit Hole.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Camera capture orientation options (landscape, upside down, etc.).",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Persistent conversation mode with adjustable speech for younger audiences.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Guide about which service provider plans work in different regions.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Low data mode for WiFi/data.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Italian language support.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to use a Bluetooth keyboard.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Network bar to see connection strength.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Speed up or slow down response speed of the scroll wheel.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Close menu by shaking the device again.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Furigana option for Japanese text.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "One-way audio option for translations.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Allow translation while recording audio sessions.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Audio replay for search and translation.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to make calls with a SIM card inserted.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Use the phone number for SMS.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to display the full text of the response on the screen.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Swipe typing with AI prediction in terminal mode.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Faster scroll speed and clickable scroll wheel for volume/brightness adjustment.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Tidal support.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to retrieve and summarize meetings from a specific date.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Dice animation for D&D rolls.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to read what the user is saying as it's being heard.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Add 1-2 days to the estimated delivery date.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to provide feedback via R1.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Persistent display of responses and actions.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Data usage information in settings or Rabbit Hole.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Secret game using the scroll wheel.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Animation and haptic feedback when pressing the button 5 times to clear.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Vibrate and show animation when fully charged.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Adjust volume quickly by holding the side button and using the scroll wheel.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to make calls with a SIM card inserted.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Drag and drop files into Rabbit Hole via USB-C.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Italian language support.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Comical comments and animations to indicate connection or server delay.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Themes with different animated rabbits, clock fonts, and UI colors.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Visual indicator of response length.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to lower screen brightness to ultra low.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Toggle to turn off the floating rabbit animation.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Secret game using the scroll wheel.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Animation and haptic feedback when pressing the button 5 times to clear.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Vibrate and show animation when fully charged.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Adjust volume quickly by holding side button and using scroll wheel.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "\"Hey Rabbit\" voice activation mode.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Cellular vs WiFi indicator on the screen.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Scroll wheel controls exact camera angle.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to scroll through the entire answer with the scroll wheel.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Scroll sensitivity setting.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Adjust speed of the scroll wheel.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to shut down without going into the menu.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Display entire answer on screen and scroll through it.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Visual indicator that R1 is finished speaking.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to play music with the display off.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Connectivity details on the Home Screen (WiFi signal strength, cellular bars).",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Easier way to adjust volume (e.g., triple click PTT + scroll wheel).",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Easier way to power off R1.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Petition to remove the Enter button on the keyboard and force button press for enter.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Chat history on-device.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "24-hour clock option.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Buttons to launch recorder and translate from the home screen.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "OLED screen.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Reduce the 60-second hold time to power off.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Make the touchscreen usable on all screens.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Custom UI for showing recipes.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to control screen timeout.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Share generated images to Discord.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Voice speed setting.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Clicking scroll wheel adjusts volume/brightness in settings.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to scroll back in history a bit using the scroll wheel.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Shutter sound or animation when Vision takes a photo.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Minimize the Vision image and store it in the top right corner to allow bigger text.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option for text and voice responses simultaneously.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to play back voice recordings on the device.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Back and Next buttons on journal entries in Rabbit Hole.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to tap on an object during Vision to pinpoint analysis.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to scroll the screen with your finger.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Double tap to skip audio, scroll wheel for volume.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Group prompts by title/category.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Context specific chat logs (business ideas, mindfulness, shopping).",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Display images with results.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Option to have \"short\" or \"detailed\" responses by default.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Support for Perplexity.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Log all interactions in Rabbit Hole and categorize them.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Access device settings in Rabbit Hole.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Start new chats with specific titles and context.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Basic first aid advice.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Multi-button configuration to reset the device.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Suicide prevention assistance.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Song recognition.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Send messages and make calls.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "More Spotify functionality (e.g., follow an artist).",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Image pull-up from the internet.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Send images to journal.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Visualize responses with images like a PowerPoint slide.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Customize/add to the system prompt.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Library of searches and answers (with citations) in Rabbit Hole.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Sync with Perplexity threads.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Unlock USB-C to use a higher-quality camera.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Transcribe handwriting to a document/spreadsheet.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to make calls or send messages (WhatsApp, LAM integration).",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Customizable/add-on system prompt.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to cause focus in vision mode.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Teachable mode functionality with Mac apps.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Wombo Dream integration.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Specific UI for displaying recipes.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Use Vision photo as the basis for Midjourney generation.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to set reminders and calendar dates.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Vision can recognize chat conversations and set reminders.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Danish language support.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Voice recording in other languages.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "\"Blind mode\" where R1 constantly describes what's in front of it.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Support for non-US services (JustEat, Glovo, Deliveroo).",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Streaming services support (YouTube, Twitch, Netflix).",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Configurable button functions (push-to-talk vs. push-and-hold).",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to pull up photos when describing something.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Email recipes, directions, and lists.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Long-term memory for personal details and interests.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Full voice control for music playback.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Switch time zones and units (Fahrenheit/Celsius).",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Control settings with voice commands.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Friction dialog for the delete button in Rabbit Hole.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Ability to create your own verified knowledge sources (\"brains\").",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Home automation integration (e.g., Sonos control).",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Allow Threads on Discord to organize feedback.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Command shortcuts for rapid button presses.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Point to other LLMs, including local LLMs.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Enable SSH.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Groq model integration.",
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  {
+    "text": "Query images of a place and see directions/maps.",
+    "upvotes": 0,
+    "downvotes": 0
+  }
 ]
