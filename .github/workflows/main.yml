@@ -25,8 +25,13 @@ jobs:
           mkdir public
           cp -r templates/ static/ public/
 
+      - name: Check public directory contents
+        run: |
+          ls -la public/
+          ls -la public/templates/
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./
+          publish_dir: ./public
