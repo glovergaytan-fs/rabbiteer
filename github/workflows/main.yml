@@ -1,0 +1,33 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # Adjust if your main branch has a different name
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.x' # Replace with your desired Python version
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build website
+        run: |
+          mkdir public # Create a public directory
+          cp -r templates/ static/ public/  # Copy necessary files
+          echo "<h1>Suggestion Box</h1>" > public/index.html # Placeholder
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public

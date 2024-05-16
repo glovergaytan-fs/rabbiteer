@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Suggestion Box</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Suggestion Box</h1>
+
+    <form method="POST" action="/suggest">
+        <label for="suggestion">New Suggestion:</label>
+        <input type="text" id="suggestion" name="suggestion" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>Suggestions:</h2>
+    <ul>
+    {% for i, suggestion in enumerate(suggestions) %}
+        <li>
+            {{ suggestion.text }} 
+            (Upvotes: {{ suggestion.upvotes }}, Downvotes: {{ suggestion.downvotes }})
+            <a href="/upvote/{{ i }}">👍</a> 
+            <a href="/downvote/{{ i }}">👎</a>
+        </li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
