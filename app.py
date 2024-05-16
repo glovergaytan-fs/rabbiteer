@@ -1,12 +1,11 @@
-from flask import Flask, render_template, request, redirect, url_for
+from flask import Flask, render_template, request, redirect, url_for, session, jsonify
 import json
 
 app = Flask(__name__)
+app.secret_key = 'your_secret_key'  # Important for session management
 
-# Data storage (we'll use a JSON file for simplicity)
 DATA_FILE = 'suggestions.json'
 
-# Load suggestions from JSON or initialize an empty list
 def load_suggestions():
     try:
         with open(DATA_FILE, 'r') as f:
@@ -14,7 +13,6 @@ def load_suggestions():
     except FileNotFoundError:
         return []
 
-# Save suggestions to JSON
 def save_suggestions(suggestions):
     with open(DATA_FILE, 'w') as f:
         json.dump(suggestions, f)
@@ -22,25 +20,38 @@ def save_suggestions(suggestions):
 @app.route('/')
 def index():
     suggestions = load_suggestions()
-    # Sort suggestions by net votes (upvotes - downvotes)
     suggestions.sort(key=lambda x: x['upvotes'] - x['downvotes'], reverse=True) 
     return render_template('index.html', suggestions=suggestions)
 
-@app.route('/upvote/<int:index>')
+@app.route('/upvote/<int:index>', methods=['POST'])
 def upvote(index):
-    suggestions = load_suggestions()
-    if 0 <= index < len(suggestions):
-        suggestions[index]['upvotes'] += 1
-        save_suggestions(suggestions)
-    return redirect(url_for('index'))
+    if 'voted_suggestions' not in session:
+        session['voted_suggestions'] = []
 
-@app.route('/downvote/<int:index>')
+    if index not in session['voted_suggestions']:
+        suggestions = load_suggestions()
+        if 0 <= index < len(suggestions):
+            suggestions[index]['upvotes'] += 1
+            session['voted_suggestions'].append(index)
+            save_suggestions(suggestions)
+        return jsonify({'status': 'success'})
+    else:
+        return jsonify({'status': 'already_voted'})
+
+@app.route('/downvote/<int:index>', methods=['POST'])
 def downvote(index):
-    suggestions = load_suggestions()
-    if 0 <= index < len(suggestions):
-        suggestions[index]['downvotes'] += 1
-        save_suggestions(suggestions)
-    return redirect(url_for('index'))
+    if 'voted_suggestions' not in session:
+        session['voted_suggestions'] = []
+
+    if index not in session['voted_suggestions']:
+        suggestions = load_suggestions()
+        if 0 <= index < len(suggestions):
+            suggestions[index]['downvotes'] += 1
+            session['voted_suggestions'].append(index)
+            save_suggestions(suggestions)
+        return jsonify({'status': 'success'})
+    else:
+        return jsonify({'status': 'already_voted'})
 
 @app.route('/suggest', methods=['POST'])
 def suggest():

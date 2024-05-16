@@ -3,6 +3,7 @@
 <head>
     <title>Suggestion Box</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
 </head>
 <body>
     <h1>Suggestion Box</h1>
@@ -15,14 +16,46 @@
 
     <h2>Suggestions:</h2>
     <ul>
-    {% for i, suggestion in enumerate(suggestions) %}
+    {% for suggestion in suggestions %}
         <li>
             {{ suggestion.text }} 
-            (Upvotes: {{ suggestion.upvotes }}, Downvotes: {{ suggestion.downvotes }})
-            <a href="/upvote/{{ i }}">👍</a> 
-            <a href="/downvote/{{ i }}">👎</a>
+            (Upvotes: <span id="upvote-count-{{ loop.index0 }}">{{ suggestion.upvotes }}</span>, 
+            Downvotes: <span id="downvote-count-{{ loop.index0 }}">{{ suggestion.downvotes }}</span>)
+            <button class="upvote-btn" data-index="{{ loop.index0 }}">👍</button> 
+            <button class="downvote-btn" data-index="{{ loop.index0 }}">👎</button>
         </li>
     {% endfor %}
     </ul>
+    <script>
+        $('.upvote-btn').click(function() {
+            var index = $(this).data('index');
+            $.ajax({
+                url: '/upvote/' + index,
+                type: 'POST',
+                success: function(response) {
+                    if (response.status === 'success') {
+                        $('#upvote-count-' + index).text(parseInt($('#upvote-count-' + index).text()) + 1);
+                    } else if (response.status === 'already_voted') {
+                        alert("You have already voted on this suggestion.");
+                    }
+                }
+            });
+        });
+
+        $('.downvote-btn').click(function() {
+            var index = $(this).data('index');
+            $.ajax({
+                url: '/downvote/' + index,
+                type: 'POST',
+                success: function(response) {
+                    if (response.status === 'success') {
+                        $('#downvote-count-' + index).text(parseInt($('#downvote-count-' + index).text()) + 1);
+                    } else if (response.status === 'already_voted') {
+                        alert("You have already voted on this suggestion.");
+                    }
+                }
+            });
+        });
+    </script>
 </body>
 </html>
