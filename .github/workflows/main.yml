@@ -27,11 +27,11 @@ jobs:
 
       - name: Check public directory contents
         run: |
-          ls -la public/
-          ls -la public/templates/
+          ls -la ./
+          ls -la ./templates/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: ./
