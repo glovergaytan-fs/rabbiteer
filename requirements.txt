@@ -92,7 +92,7 @@ PySocks==1.7.1
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
 pytweening==1.2.0
-pywin32==306
+# pywin32==306
 PyYAML==6.0.1
 pyzmq==26.0.3
 readchar==4.0.6
