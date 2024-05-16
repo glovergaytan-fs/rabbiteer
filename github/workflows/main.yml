@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main # Adjust if your main branch has a different name
+      - main
 
 jobs:
   build-and-deploy:
@@ -15,16 +15,16 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v3
         with:
-          python-version: '3.x' # Replace with your desired Python version
+          python-version: '3.11.0' 
 
       - name: Install dependencies
         run: pip install -r requirements.txt
 
       - name: Build website
         run: |
-          mkdir public # Create a public directory
-          cp -r templates/ static/ public/  # Copy necessary files
-          echo "<h1>Suggestion Box</h1>" > public/index.html # Placeholder
+          mkdir public
+          cp -r templates/ static/ public/
+          python app.py build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

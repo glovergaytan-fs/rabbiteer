@@ -2,60 +2,39 @@
 <html>
 <head>
     <title>Suggestion Box</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <h1>Suggestion Box</h1>
+    <nav>
+        <a class="home-button" href="/">rabbiteer</a>
+      </nav>
+      
+      <h1>ornag box fixes</h1>
+      <div class="video">
+        <video autoplay loop muted>
+          <source src="https://rabbit.lotofcarrots.com/media/home/os/rabbit-idle.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>    
+      </div>
 
     <form method="POST" action="/suggest">
-        <label for="suggestion">New Suggestion:</label>
+        <label for="suggestion">new suggestion:</label>
         <input type="text" id="suggestion" name="suggestion" required>
         <button type="submit">Submit</button>
     </form>
 
-    <h2>Suggestions:</h2>
+    <h2>current suggestions:</h2>
     <ul>
     {% for suggestion in suggestions %}
         <li>
             {{ suggestion.text }} 
-            (Upvotes: <span id="upvote-count-{{ loop.index0 }}">{{ suggestion.upvotes }}</span>, 
-            Downvotes: <span id="downvote-count-{{ loop.index0 }}">{{ suggestion.downvotes }}</span>)
-            <button class="upvote-btn" data-index="{{ loop.index0 }}">👍</button> 
-            <button class="downvote-btn" data-index="{{ loop.index0 }}">👎</button>
+            (Upvotes: {{ suggestion.upvotes }}, Downvotes: {{ suggestion.downvotes }})
+            <div class="vote-buttons"> 
+                <a href="{{ url_for('upvote', index=loop.index0) }}">👍</a> 
+                <a href="{{ url_for('downvote', index=loop.index0) }}">👎</a>
+            </div>
         </li>
     {% endfor %}
     </ul>
-    <script>
-        $('.upvote-btn').click(function() {
-            var index = $(this).data('index');
-            $.ajax({
-                url: '/upvote/' + index,
-                type: 'POST',
-                success: function(response) {
-                    if (response.status === 'success') {
-                        $('#upvote-count-' + index).text(parseInt($('#upvote-count-' + index).text()) + 1);
-                    } else if (response.status === 'already_voted') {
-                        alert("You have already voted on this suggestion.");
-                    }
-                }
-            });
-        });
-
-        $('.downvote-btn').click(function() {
-            var index = $(this).data('index');
-            $.ajax({
-                url: '/downvote/' + index,
-                type: 'POST',
-                success: function(response) {
-                    if (response.status === 'success') {
-                        $('#downvote-count-' + index).text(parseInt($('#downvote-count-' + index).text()) + 1);
-                    } else if (response.status === 'already_voted') {
-                        alert("You have already voted on this suggestion.");
-                    }
-                }
-            });
-        });
-    </script>
 </body>
 </html>
